@@ -34,8 +34,6 @@ namespace DiscoCompartilhado
             {
                 Console.WriteLine($"Ocorreu um erro ao executar o programa: {ex.Message}");
             }
-
-            Console.ReadKey(); // Manter a janela aberta
         }
     }
 }
