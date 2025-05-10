@@ -148,3 +148,4 @@ C:\Users\User\Desktop\Projetos-CSHARP\DiscoCompartilhadoBIOS\DiscoCompartilhadoB
 C:\Users\User\Desktop\Projetos-CSHARP\DiscoCompartilhadoBIOS\DiscoCompartilhadoBIOS\obj\Debug\net8.0\DiscoCompartilhadoBIOS.pdb
 C:\Users\User\Desktop\Projetos-CSHARP\DiscoCompartilhadoBIOS\DiscoCompartilhadoBIOS\obj\Debug\net8.0\DiscoCompartilhadoBIOS.genruntimeconfig.cache
 C:\Users\User\Desktop\Projetos-CSHARP\DiscoCompartilhadoBIOS\DiscoCompartilhadoBIOS\obj\Debug\net8.0\ref\DiscoCompartilhadoBIOS.dll
+C:\Users\User\Desktop\Projetos-CSHARP\DiscoCompartilhadoBIOS\DiscoCompartilhadoBIOS\obj\Debug\net8.0\DiscoCompartilhadoBIOS.sourcelink.json

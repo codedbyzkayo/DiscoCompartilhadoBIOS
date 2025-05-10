@@ -24,7 +24,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiscoCompartilhadoBIOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94cbe83aac65dac307cac89c6b20940a34743c6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8482647ffeb8d10bcc1056c4ce23fc1ee0e68c15")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiscoCompartilhadoBIOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiscoCompartilhadoBIOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
