@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Projetos-CSHARP\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS.csproj": {}
+    "D:\\Projetos-CSHARP\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Projetos-CSHARP\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS.csproj": {
+    "D:\\Projetos-CSHARP\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Projetos-CSHARP\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS.csproj",
+        "projectUniqueName": "D:\\Projetos-CSHARP\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS.csproj",
         "projectName": "DiscoCompartilhadoBIOS",
-        "projectPath": "C:\\Users\\User\\Desktop\\Projetos-CSHARP\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS.csproj",
+        "projectPath": "D:\\Projetos-CSHARP\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Projetos-CSHARP\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS\\obj\\",
+        "outputPath": "D:\\Projetos-CSHARP\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\Shared\\NuGetPackages"
@@ -43,9 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.316/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,5 +1,5 @@
 using DiscoCompartilhado.Servicos;
-using DiscoCompartilhado.Modelos; // Adicione esta linha
+using DiscoCompartilhado.Modelos;
 using System;
 
 namespace DiscoCompartilhado
@@ -10,24 +10,32 @@ namespace DiscoCompartilhado
         {
             try
             {
-                ArmazenamentoLogico disco = DiscoAppServico.ObterDisco();
+                var discos = DiscoAppServico.ObterDiscos();
 
-                if (disco != null)
+                if (discos == null)
                 {
-                    Console.WriteLine("Informações do Disco:");
-                    Console.WriteLine($"  Nome: {disco.Nome}");
-                    Console.WriteLine($"  Descrição: {disco.Descricao}");
-                    Console.WriteLine($"  Capacidade: {disco.CapacidadeBytes} bytes");
-                    Console.WriteLine($"  Espaço Livre: {disco.EspacoLivre} bytes");
-                    Console.WriteLine($"  Serial: {disco.Serial}");
-                    Console.WriteLine($"  Sistema de Arquivos: {disco.SistemaArquivos}");
-                    Console.WriteLine($"  Tipo de Mídia: {disco.TipoMidia}");
-                    Console.WriteLine($"  Tipo de Driver: {disco.TipoDriver}");
-                    Console.WriteLine($"  Endereço de Rede: {disco.EnderecoRede}");
+                    Console.WriteLine("Não foi possível obter informações dos discos.");
+                }
+                else if (discos.Count == 0)
+                {
+                    Console.WriteLine("Nenhum disco disponível foi encontrado.");
                 }
                 else
                 {
-                    Console.WriteLine("Não foi possível obter informações do disco.");
+                    foreach (var disco in discos)
+                    {
+                        Console.WriteLine($"Informações do Disco {disco.Nome}");
+                        Console.WriteLine($"  Nome: {disco.Nome}");
+                        Console.WriteLine($"  Descrição: {disco.Descricao}");
+                        Console.WriteLine($"  Capacidade: {disco.CapacidadeBytes} bytes");
+                        Console.WriteLine($"  Espaço Livre: {disco.EspacoLivre} bytes");
+                        Console.WriteLine($"  Serial: {disco.Serial}");
+                        Console.WriteLine($"  Sistema de Arquivos: {disco.SistemaArquivos}");
+                        Console.WriteLine($"  Tipo de Mídia: {disco.TipoMidia}");
+                        Console.WriteLine($"  Tipo de Driver: {disco.TipoDriver}");
+                        Console.WriteLine($"  Endereço de Rede: {disco.EnderecoRede}");
+                        Console.WriteLine();
+                    }
                 }
             }
             catch (Exception ex)

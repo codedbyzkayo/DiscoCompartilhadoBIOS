@@ -17,14 +17,13 @@ using System.Reflection;
     "t\\"))]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", ("C:\\Users\\User\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\8.2.2\\tools\\ex" +
     "t\\bin\\"))]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", ("C:\\Users\\User\\Desktop\\Projetos-CSHARP\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBI" +
-    "OS"))]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "D:\\Projetos-CSHARP\\DiscoCompartilhadoBIOS\\DiscoCompartilhadoBIOS")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", ("C:\\Users\\User\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\8.2.2\\tools\\Aspire.Das" +
     "hboard.exe"))]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiscoCompartilhadoBIOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8482647ffeb8d10bcc1056c4ce23fc1ee0e68c15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+023da45264dfe21c630f2e981912c5769cb69de2")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiscoCompartilhadoBIOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiscoCompartilhadoBIOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

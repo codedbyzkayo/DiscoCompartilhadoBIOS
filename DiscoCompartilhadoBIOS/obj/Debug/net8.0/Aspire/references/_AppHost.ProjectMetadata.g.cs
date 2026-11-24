@@ -8,5 +8,5 @@ namespace Projects;
 public class DiscoCompartilhadoBIOS
 {
     private DiscoCompartilhadoBIOS() { }
-    public static string ProjectPath => """C:\Users\User\Desktop\Projetos-CSHARP\DiscoCompartilhadoBIOS\DiscoCompartilhadoBIOS""";
+    public static string ProjectPath => """D:\Projetos-CSHARP\DiscoCompartilhadoBIOS\DiscoCompartilhadoBIOS""";
 }

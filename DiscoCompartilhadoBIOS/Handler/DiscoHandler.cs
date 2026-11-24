@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Management;
 using DiscoCompartilhado.Modelos;
@@ -9,18 +10,19 @@ namespace DiscoCompartilhado.Handlers
     {
         private readonly string _consulta;
 
-        public DiscoHandler(string consulta = "SELECT * FROM Win32_LogicalDisk")
+        public DiscoHandler(string? consulta = "SELECT * FROM Win32_LogicalDisk")
         {
             _consulta = consulta ?? "SELECT * FROM Win32_LogicalDisk";
         }
 
-        public ArmazenamentoLogico ObterInformacoesDisco()
+        public List<ArmazenamentoLogico>? ObterInformacoesDiscos()
         {
             try
             {
                 using (var searcher = new ManagementObjectSearcher(_consulta))
                 {
-                    var disco = searcher.Get()
+                    var enderecoRede = ObterEnderecoRede();
+                    return searcher.Get()
                         .Cast<ManagementObject>()
                         .Select(discoInfo => new ArmazenamentoLogico
                         {
@@ -32,11 +34,9 @@ namespace DiscoCompartilhado.Handlers
                             SistemaArquivos = discoInfo["FileSystem"] as string,
                             TipoMidia = ConverterParaInt32(discoInfo["MediaType"]),
                             TipoDriver = ConverterParaInt32(discoInfo["DriveType"]),
-                            EnderecoRede = ObterEnderecoRede()
+                            EnderecoRede = enderecoRede
                         })
-                        .FirstOrDefault();
-
-                    return disco;
+                        .ToList();
                 }
             }
             catch (ManagementException ex)
